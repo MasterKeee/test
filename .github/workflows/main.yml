@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: '14'
       - run: 
-          npm install node-fetch moment-timezone
+          npm install axios
       - run:
-          node jinianri.js
+          node test.js
